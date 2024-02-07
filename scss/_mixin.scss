@@ -1,16 +1,14 @@
 //Mixin
 
 @mixin links {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-@mixin team ($borde, $image, $ancho, $alto, $radius){
-    border: 5px solid $borde;
-    background: $image;
-    width: $ancho;
-    height: $alto;
-    margin: auto;
-    border-radius: $radius;
-  }
-
- 
+@mixin team($borde, $image, $ancho, $alto, $radius) {
+  border: 5px solid $borde;
+  background: $image;
+  width: $ancho;
+  height: $alto;
+  margin: auto;
+  border-radius: $radius;
+}

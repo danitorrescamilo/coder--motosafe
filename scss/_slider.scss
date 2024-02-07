@@ -1,12 +1,64 @@
 /*SLIDER*/
 
-.slider {
+.ejecutivos-1{
+  @include team ($color-principal, url(../images/team-1.jpg), 200px, 200px, 100px);
+}
+
+.slider1 {
   background-image: linear-gradient(
       to bottom,
       hsla(208, 100%, 28%, 0.7),
       hsla(210, 11%, 15%, 0.7)
     ),
     url(../images/img-head.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+}
+.slider2 {
+  background-image: linear-gradient(
+      to bottom,
+      hsla(208, 100%, 28%, 0.7),
+      hsla(210, 11%, 15%, 0.7)
+    ),
+    url(../images/moto-01.webp);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+}
+.slider3 {
+  background-image: linear-gradient(
+      to bottom,
+      hsla(208, 100%, 28%, 0.7),
+      hsla(210, 11%, 15%, 0.7)
+    ),
+    url(../images/moto-05.jpeg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+}
+.slider4 {
+  background-image: linear-gradient(
+      to bottom,
+      hsla(208, 100%, 28%, 0.7),
+      hsla(210, 11%, 15%, 0.7)
+    ),
+    url(../images/moto-07.jpeg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+}
+.slider5 {
+  background-image: linear-gradient(
+      to bottom,
+      hsla(208, 100%, 28%, 0.7),
+      hsla(210, 11%, 15%, 0.7)
+    ),
+    url(../images/moto-09.jpeg);
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
