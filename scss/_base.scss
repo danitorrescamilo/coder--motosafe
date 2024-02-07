@@ -1,0 +1,51 @@
+/*BASE*/
+
+html {
+  font-size: 62.5%;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", serif;
+  color: $color-principal;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+}
+
+/* Pantallas inferiores a 768 px*/
+@media screen and (max-width: 768px) {
+  h2 {
+    color: $color-secundario;
+  }
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+
+/* Pantallas inferiores a 768 px*/
+@media screen and (max-width: 768px) {
+  h3 {
+    color: $color-terciario;
+  }
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.7rem;
+  line-height: 1.5;
+  color: black;
+}
+
+footer {
+  text-align: center;
+  background-color: $color-secundario;
+}

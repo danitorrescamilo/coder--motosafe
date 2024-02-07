@@ -1,0 +1,28 @@
+/*SLIDER*/
+
+.slider {
+  background-image: linear-gradient(
+      to bottom,
+      hsla(208, 100%, 28%, 0.7),
+      hsla(210, 11%, 15%, 0.7)
+    ),
+    url(../images/img-head.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+.slider-title {
+  color: lightgrey;
+  font-size: 6rem;
+}
+
+/* Pantallas inferiores a 992 px*/
+@media screen and (max-width: 992px) {
+  .slider-title {
+    text-align: center;
+    color: lightblue;
+    font-size: 5rem;
+  }
+}

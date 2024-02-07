@@ -1,0 +1,28 @@
+/*OFERTA*/
+
+.oferta img,
+.card img {
+  width: 100%;
+}
+
+/* Pantallas superiores a 768 px*/
+@media screen and (min-width: 768px) {
+  .oferta img {
+    height: 45rem;
+    width: 100%;
+    object-fit: cover;
+
+    /*llena el espacio y mantiene proporcion*/
+  }
+}
+
+/* Pantallas superiores a 768 px*/
+@media screen and (min-width: 768px) {
+  .card img {
+    height: 25rem;
+    width: 100%;
+    object-fit: cover;
+
+    /*llena el espacio y mantiene proporcion*/
+  }
+}

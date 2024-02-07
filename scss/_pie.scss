@@ -1,0 +1,18 @@
+/*PIE*/
+
+.pie {
+  font-size: 1.4rem;
+  color: $color-principal;
+  text-align: center;
+  background-color: white;
+  padding-top: 10px;
+
+  a {
+    color: red;
+    @include links;
+
+    &:hover {
+      color: $color-terciario;
+    }
+  }
+}

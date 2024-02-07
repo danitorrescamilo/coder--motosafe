@@ -63,12 +63,12 @@ window.sr = ScrollReveal();
     sr.reveal('.card1', {
         duration: 3000,
         origin: 'top',
-        distance: '-200px'
+        distance: '200px'
     });
     sr.reveal('.card2', {
         duration: 3500,
         origin: 'top',
-        distance: '-150px'
+        distance: '-200px'
     });
     sr.reveal('.card3', {
         duration: 4000,

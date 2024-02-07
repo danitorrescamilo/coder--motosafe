@@ -1,0 +1,28 @@
+/*FOOTER*/
+
+.footer {
+  a {
+    color: white;
+    @include links;
+
+    &:hover {
+      color: $color-principal;
+    }
+  }
+
+  h3 {
+    color: white;
+  }
+}
+
+.logo-footer img {
+  margin-top: 80px;
+}
+
+/* Pantallas inferiores a 768 px*/
+@media screen and (max-width: 768px) {
+  .logo-footer img {
+    text-align: center;
+    margin-top: 30px;
+  }
+}
