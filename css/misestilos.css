@@ -1,0 +1,296 @@
+/* Porcentaje que iguala medida de pixeles */
+html {
+    font-size: 62.5%;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Playfair Display', serif;
+    color: #004e92;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+
+h2 {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+}
+
+/* Pantallas inferiores a 768 px*/
+@media screen and (max-width: 768px) {
+    h2 {
+        color: #000428;
+    }
+}
+
+h3 {
+    font-size: 2.5rem;
+}
+
+/* Pantallas inferiores a 768 px*/
+@media screen and (max-width: 768px) {
+    h3 {
+        color: orange;
+    }
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.7rem;
+    line-height: 1.5;
+    color: black;
+}
+
+/*SLIDER*/
+.slider {
+    background-image: linear-gradient(to bottom, hsla(208, 100%, 28%, 0.7), hsla(210, 11%, 15%, 0.7)), url(../images/img-head.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+.slider-title {
+    color: lightgrey;
+    font-size: 6rem;
+}
+
+/* Pantallas inferiores a 992 px*/
+@media screen and (max-width: 992px) {
+    .slider-title {
+        text-align: center;
+        color: lightblue;
+        font-size: 5rem;
+    }
+}
+
+/*SOACIAL*/
+.socialmedia {
+    /* background: #fff; */
+    padding: 0px 0px 0px 50px;
+}
+
+.socialmedia a {
+    color: #fff;
+    padding: 0px 10px 0px 0px;
+    text-decoration: none;
+}
+
+.socialmedia a:hover {
+    color: orange;
+}
+
+/* Pantallas inferiores a 991 px */
+@media screen and (max-width: 991px) {
+    .socialmedia {
+        text-align: center;
+        padding: 20px 10px 20px 10px;
+        border-top: grey solid 1px;
+    }
+
+    .socialmedia a {
+        color: orange;
+        text-align: center;
+
+    }
+
+    .socialmedia a:hover {
+        color: grey;
+    }
+
+}
+
+/*OFERTA*/
+.oferta img {
+    width: 100%;
+}
+
+/* Pantallas superiores a 768 px*/
+@media screen and (min-width: 768px) {
+    .oferta img {
+        height: 45rem;
+        width: 100%;
+        object-fit: cover;
+        /*llena el espacio y mantiene proporcion*/
+    }
+}
+
+.card img {
+    width: 100%;
+}
+
+/* Pantallas superiores a 768 px*/
+@media screen and (min-width: 768px) {
+    .card img {
+        height: 25rem;
+        width: 100%;
+        object-fit: cover;
+        /*llena el espacio y mantiene proporcion*/
+    }
+}
+
+/*EJECUTIVOS*/
+.ejecutivos {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.ejecutivos img {
+    width: 100%;
+}
+
+.ejecutivos-1 {
+    border: 5px solid #004e92;
+    background: url(../images/team-1.jpg);
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    border-radius: 100px;
+}
+
+.ejecutivos-2 {
+    border: 5px solid #004e92;
+    background: url(../images/team-2.jpg);
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    border-radius: 100px;
+}
+
+.ejecutivos-3 {
+    border: 5px solid #004e92;
+    background: url(../images/team-3.jpg);
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    border-radius: 100px;
+}
+
+.ejecutivos-4 {
+    border: 5px solid #004e92;
+    background: url(../images/team-4.jpg);
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    border-radius: 100px;
+}
+
+.ejecutivos-content {
+    padding: 15px;
+}
+
+.ejecutivos-content h3 {
+    color: #004e92;
+}
+
+/*FORM*/
+.dos-columnas {
+    margin-top: 50px;
+}
+
+.datos {
+    float: left;
+    width: 25%;
+    margin: auto;
+    color: #999;
+}
+
+.formulario {
+    float: left;
+    width: 90%;
+    margin: auto;
+    color: #999;
+}
+
+.caja-1 {
+    width: 100%;
+    height: 40px;
+    margin: 20px 20px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.caja-2 {
+    width: 100%;
+    height: 100px;
+    margin: 20px 20px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.correr {
+    margin: 20px 20px;
+    padding: 10px;
+}
+
+.datos-contacto {
+    list-style: none;
+    text-align: center;
+}
+
+.datos-contacto li {
+    color: #444;
+    padding-bottom: 5px;
+}
+
+.datos-contacto li i {
+    font-size: 60px;
+}
+
+.limpia {
+    clear: both;
+}
+
+
+/*FOOTER*/
+footer {
+    text-align: center;
+    background-color: #000428;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #004e92;
+}
+
+.footer h3 {
+    color: white;
+}
+
+.logo-footer img {
+    margin-top: 80px;
+}
+
+/* Pantallas inferiores a 768 px*/
+@media screen and (max-width: 768px) {
+    .logo-footer img {
+        text-align: center;
+        margin-top: 30px;
+    }
+}
+
+/*PIE*/
+.pie {
+    font-size: 1.4rem;
+    color: #004e92;
+    text-align: center;
+    background-color: white;
+    padding-top: 10px;
+}
+
+.pie a {
+    color: red;
+    text-decoration: none;
+}
+
+.pie a:hover {
+    color: orange;
+}
