@@ -77,15 +77,6 @@ footer {
   }
 }
 /*SLIDER*/
-.ejecutivos-1 {
-  border: 5px solid #004e92;
-  background: url(../images/team-1.jpg);
-  width: 200px;
-  height: 200px;
-  margin: auto;
-  border-radius: 100px;
-}
-
 .slider1 {
   background-image: linear-gradient(to bottom, hsla(208, 100%, 28%, 0.7), hsla(210, 11%, 15%, 0.7)), url(../images/img-head.jpg);
   background-position: center;
